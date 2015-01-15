@@ -1,4 +1,9 @@
 .vagrant
 
-# file too large
+# files too large for source version control
+
+# download: http://download.oracle.com/otn-pub/java/jdk/8u25-b17/jdk-8u25-linux-i586.tar.gz
 puppet/modules/java/files/jdk-8u25-linux-i586.tar.gz
+
+# download: mirrors.jenkins-ci.org/war/latest/jenkins.war
+puppet/modules/jenkins/files/jenkins.war
