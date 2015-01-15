@@ -1,2 +1,1 @@
-include java
 include jenkins

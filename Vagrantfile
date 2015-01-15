@@ -17,7 +17,7 @@ Vagrant.configure(2) do |config|
     jenkins.vm.network "forwarded_port", guest: 8080, host: 55555
     jenkins.vm.provision :puppet do |puppet|
       puppet.manifests_path = "puppet/manifests"
-      puppet.manifest_file = "java-and-jenkins.pp"
+      puppet.manifest_file = "jenkins.pp"
       puppet.module_path = "puppet/modules"
     end
     jenkins.vm.provision "shell", run: "always" do |s|

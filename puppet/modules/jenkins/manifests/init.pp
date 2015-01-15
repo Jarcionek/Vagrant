@@ -1,5 +1,7 @@
 class jenkins() {
 
+    include java
+
     file { "/usr/lib/jenkins/jenkins.war" :
         require => File["/usr/lib/jenkins/"],
         source => "puppet:///modules/jenkins/jenkins.war",
