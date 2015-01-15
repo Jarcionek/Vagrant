@@ -1,1 +1,4 @@
 .vagrant
+
+# file too large
+puppet/modules/java/files/jdk-8u25-linux-i586.tar.gz
