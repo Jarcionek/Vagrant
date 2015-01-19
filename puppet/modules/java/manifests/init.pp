@@ -2,7 +2,7 @@ class java(
         $java_archive = "jdk-8u25-linux-i586.tar.gz",
         $java_home = "/usr/lib/jvm/jdk1.8.0_25",
         $java_folder = "jdk1.8.0_25"
-    ) 
+    )
 {
 
     Exec {
@@ -10,7 +10,7 @@ class java(
     }
 	
     file { "/etc/profile.d/java.sh" :
-        content => "export JAVA_HOME=${java_home} export PATH=\$PATH:\$JAVA_HOME/bin"
+        content => " export JAVA_HOME=${java_home} \n export PATH=\$PATH:\$JAVA_HOME/bin \n "
     }
 
     exec { "set java" :

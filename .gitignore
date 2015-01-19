@@ -7,3 +7,6 @@ puppet/modules/java/files/jdk-8u25-linux-i586.tar.gz
 
 # download: mirrors.jenkins-ci.org/war/latest/jenkins.war
 puppet/modules/jenkins/files/jenkins.war
+
+# download: http://mirror.switch.ch/mirror/apache/dist/maven/maven-3/3.2.5/binaries/apache-maven-3.2.5-bin.tar.gz
+puppet/modules/maven/files/apache-maven-3.2.5-bin.tar.gz
